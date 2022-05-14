@@ -6,7 +6,7 @@ import EmbeddedVideos from '../EmbeddedVideos/EmbeddedVideos';
 const BackgroundVideo = () => {
   return (
     
-    <div classname="bg">
+    <div className="bg">
         <div className='overlay'></div>
         <video src={weddingStock} autoPlay loop muted />
         <br />

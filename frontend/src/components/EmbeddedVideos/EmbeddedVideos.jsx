@@ -3,25 +3,14 @@ import React from 'react';
 // import wedding3 from '../Assets/wedding3.mp4';
 // import wedding4 from '../Assets/wedding4.mp4';
 // import wedding5 from '../Assets/wedding5.mp4';
-import wphoto1 from '../Assets/wphoto1.jpg';
-import wphoto2 from '../Assets/wphoto2.jpg';
-import Masonry from 'react-masonry-css'
+
 
 
 
 
 const EmbeddedVideos = () => {
   return (
-    // <div >
-    //     <video className='emvideos' src={wedding2} autoPlay loop muted /> {" "}{" "}
-    //     <video className='emvideos' src={wedding3} autoPlay loop muted /> {" "}{" "}
-    //     <br></br><br></br>
-    //     <video className='emvideos' src={wedding4} autoPlay loop muted /> {" "}{" "}
-    //     <video className='emvideos' src={wedding5} autoPlay loop muted /> {" "}{" "}
-    //     <br></br><br></br>
-    //     <img src={wphoto2} className="rounded" alt="Logo" />; {" "}{" "}
-    //     <img src={wphoto1} className="rounded"  alt="Logo" />; {" "}{" "}
-    //     </div  >
+
 
     <div class="row">
   <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">

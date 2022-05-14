@@ -34,6 +34,8 @@
     color: white;
   }
   
+  
+  
   .overlay {
     position: absolute;
     top: 0%;
@@ -42,8 +44,6 @@
     height: 100%;
     color: red;
   }
-  
-  
   .Apps {
     
     position: absolute;
