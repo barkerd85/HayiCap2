@@ -4,6 +4,16 @@
 
 label {
   font-size: large;
-  color: black;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  
 }
+
+.overlay {
+  padding-left: 1175px;
+  padding-top: 175px;
+}
+
+.navbar-brand{
+  font-size: x-large;
+}
+

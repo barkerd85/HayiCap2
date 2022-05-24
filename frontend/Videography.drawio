@@ -1,0 +1,31 @@
+<mxfile host="65bd71144e">
+    <diagram id="vzId6GfEQvEgcZjctb6K" name="Page-1">
+        <mxGraphModel dx="1758" dy="869" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Navbar" style="html=1;" vertex="1" parent="1">
+                    <mxGeometry width="850" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Video1" style="html=1;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="120" width="260" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="Video2" style="html=1;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="120" width="260" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Video3" style="html=1;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="120" width="240" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Video5" style="html=1;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="320" width="260" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Video6" style="html=1;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="320" width="240" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Video4" style="html=1;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="320" width="260" height="160" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

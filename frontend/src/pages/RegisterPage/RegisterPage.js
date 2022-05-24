@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import AuthContext from "../../context/AuthContext";
 import useCustomForm from "../../hooks/useCustomForm";
-import weddingStock from "../../components/Assets/weddingStock.mp4";
+import wedding3 from "../../components/Assets/wedding3.mp4";
 
 const RegisterPage = () => {
   const { registerUser } = useContext(AuthContext);
@@ -13,12 +13,10 @@ const RegisterPage = () => {
 
   return (
     <div className="bg">
-      <video src={weddingStock} autoPlay loop muted />
+      <video src={wedding3} autoPlay loop muted />
       <div className="overlay">
-        <form className="form" onSubmit={handleSubmit}>
+        <form className="navbar-brand" onSubmit={handleSubmit}>
           <label>
-            <br />
-            <br />
             <br />
             <br />
             &nbsp;&nbsp;&nbsp;&nbsp; Name: <br />
@@ -59,7 +57,7 @@ const RegisterPage = () => {
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <br />
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <button className="btn btn-dark" >Register</button>
+          <button className="btn btn-dark">Register</button>
         </form>
       </div>
     </div>

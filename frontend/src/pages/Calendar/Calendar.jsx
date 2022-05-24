@@ -1,6 +1,5 @@
 import React from "react";
 import wedding4 from "../../components/Assets/wedding4.mp4";
-
 import { InlineWidget } from "react-calendly";
 
 const Calendar = () => {

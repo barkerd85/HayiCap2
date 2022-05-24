@@ -3,8 +3,7 @@ import AuthContext from "../../context/AuthContext";
 import useCustomForm from "../../hooks/useCustomForm";
 import { Link } from "react-router-dom";
 import "./LoginPage.css";
-import weddingStock from "../../components/Assets/weddingStock.mp4";
-import "bootswatch/dist/darkly/bootstrap.min.css";
+import wedding2 from "../../components/Assets/wedding2.mp4";
 
 const LoginPage = () => {
   const { loginUser, isServerError } = useContext(AuthContext);
@@ -22,15 +21,16 @@ const LoginPage = () => {
 
   return (
     <div className="bg">
-      <video src={weddingStock} autoPlay loop muted />
+      <video src={wedding2} autoPlay loop muted />
       <div className="overlay">
         <br />
         <br />
         <br />
         <br />
-        <form className="form" onSubmit={handleSubmit}>
+        <form className="navbar-brand" onSubmit={handleSubmit}>
           <label>
-            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email: <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Email:
+            <br />
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <input
               type="text"
@@ -40,9 +40,11 @@ const LoginPage = () => {
             />
           </label>
           <br />
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          <label className="navbar-brand">
-            Password: <br />
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <label>
+            Password:
+            <br />
             <input
               type="text"
               name="password"
@@ -55,12 +57,11 @@ const LoginPage = () => {
           ) : null}
           <br />
           <br />
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <button className="btn btn-dark">Login</button>
-          
           <br />
           <br />
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <Link to="/register">Click here to register!</Link>
         </form>
       </div>
